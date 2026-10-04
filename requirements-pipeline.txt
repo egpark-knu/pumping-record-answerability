@@ -1,0 +1,10 @@
+# Science environment recorded for the original runs (Python 3.11.14):
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+pastas==2.0.0
+numba==0.67.0
+tqdm==4.70.1
+matplotlib==3.11.2
+pillow==12.2.0
+# The forecasting engine runs in a separate environment: requirements-engine.txt.

@@ -1,0 +1,86 @@
+{
+ "checkpoint": {
+  "revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+  "local_files_only": true,
+  "force_download": false,
+  "config_sha256": "ff17bbc07b792c5a904cca265b8468579d736a4fe84981da25eb871b0a125bc6",
+  "weights_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "weights_bytes": 1322898824,
+  "existing_cache_only": true,
+  "location": "environment variable TIMESFM_SNAPSHOT"
+ },
+ "api": {
+  "return_quantiles": true,
+  "use_symmetric_averaging": false,
+  "make_positive": false,
+  "sort_quantiles": true,
+  "use_znorm": false,
+  "padding_mode": "none",
+  "univariate": false
+ },
+ "context": 1024,
+ "tracks": {
+  "raw": {
+   "role": "main",
+   "tau_days": null,
+   "coverage": {
+    "cases": 540,
+    "contrasts": 1080,
+    "queries": 2160
+   },
+   "horizons": [
+    10,
+    30
+   ],
+   "planned_output": "results/phase2/tools/timesfm_raw_H{10,30}.npz"
+  },
+  "exp10": {
+   "role": "supplemental",
+   "tau_days": 10,
+   "coverage": {
+    "cases": 540,
+    "contrasts": 1080,
+    "queries": 2160
+   },
+   "horizons": [
+    10,
+    30
+   ],
+   "planned_output": "results/phase2/tools/timesfm_exp10_H{10,30}.npz"
+  },
+  "exp30": {
+   "role": "supplemental",
+   "tau_days": 30,
+   "coverage": {
+    "cases": 540,
+    "contrasts": 1080,
+    "queries": 2160
+   },
+   "horizons": [
+    10,
+    30
+   ],
+   "planned_output": "results/phase2/tools/timesfm_exp30_H{10,30}.npz"
+  },
+  "exp90": {
+   "role": "supplemental",
+   "tau_days": 90,
+   "coverage": {
+    "cases": 540,
+    "contrasts": 1080,
+    "queries": 2160
+   },
+   "horizons": [
+    10,
+    30
+   ],
+   "planned_output": "results/phase2/tools/timesfm_exp90_H{10,30}.npz"
+  }
+ },
+ "source_hashes": {
+  "src/timesfm3/torch/model.py": "474b8035db514d852e6358c73ebd1ba90dcd25f17d1ecf4e5bb884ca788e7dbf",
+  "src/timesfm3/torch/timesfm3_forecaster.py": "33870c9676be6aab4e62c45a0a89bc1d6c49ca3149ddc46a19c6d9e2c23e0037",
+  "src/timesfm3/torch/evaluator.py": "4ad0ddc5e264206cf6db706b493c2b4f20bf6698e89b990a4c37c15089971af2"
+ },
+ "public_edition": "Engine record of the original preflight: checkpoint, API, context, tracks and the TimesFM source hashes (paths relative to the google-research/timesfm checkout given by TIMESFM_SOURCE)."
+}

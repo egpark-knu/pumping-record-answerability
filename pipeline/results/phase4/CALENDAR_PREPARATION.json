@@ -1,0 +1,147 @@
+{
+ "status": "ready_for_freeze",
+ "protocol_frozen": false,
+ "parent_scope": "full D05 A/B/C remains with the parent plan",
+ "generator": "lib/p4_calendar.py",
+ "rules": {
+  "component": "D05 B calendar and weather preparation",
+  "turn_id": "run",
+  "slot": "executor",
+  "protocol_frozen": false,
+  "models_scored": false,
+  "W_scored": false,
+  "n_cases": 2160,
+  "n_forms": 3,
+  "n_origins_per_realization": 12,
+  "n_layers": 6,
+  "n_realizations": 10,
+  "count_identity": "3 forms x 12 monthly origins x 6 layers x 10 realizations = 2160",
+  "n_zero_effect_cases": 918,
+  "n_water_curtain_offseason_variant_cases": 216,
+  "zero_effect_cases_retained": true,
+  "relative_width_not_imputed": true,
+  "nightly_hours_not_mapped_to_daily_pause": true,
+  "rain_days_checked_wet": 1,
+  "rain_days_checked_dry": 4,
+  "curtain_daily_m3d": 60.416666666666664,
+  "warm_night_off_probability": 0.2,
+  "warm_night_probability_source": "self-imposed fallback; tmin is absent; not taken from Kang's 21.1 percent trial reduction",
+  "rain_off_threshold_mm": 0.0,
+  "rain_rule": "paddy May-August day is off when retained daily RAIN is strictly greater than 0 mm",
+  "offseason_realizations": [
+   3,
+   6,
+   9
+  ],
+  "offseason_factor_of_in_season_daily_rate": 0.1,
+  "gains_m_per_m3d": {
+   "confined_T50": 0.0091690427387808,
+   "confined_T500": 0.0012822977943227401,
+   "leaky_T50": 0.00557902964767055,
+   "leaky_T500": 0.00091690427387808,
+   "unconfined_T50": 0.0003625354567193511,
+   "unconfined_T500": 0.00023451070175162638
+  },
+  "sigma_bg_min_m": 0.1502513066000031,
+  "sigma_bg_max_m": 0.6018335826922984,
+  "climate": [
+   {
+    "site_stem": "남해남해_암반",
+    "path": "<local-path>",
+    "sha256": "7733e1352ddc8b953f952acb14289184640a61d294c1ef188a103e7a6b67c521",
+    "n_days": 7305,
+    "start": "2005-01-01",
+    "end": "2024-12-31",
+    "columns": [
+     "Date",
+     "TEMP",
+     "RAIN",
+     "HUMID",
+     "HPA",
+     "WIND"
+    ],
+    "rain_missing": 0,
+    "temp_missing": 4,
+    "temp_is_daily_minimum": false,
+    "temp_note": "Column is named TEMP. No local file labels it as daily minimum temperature."
+   },
+   {
+    "site_stem": "산청산청_암반",
+    "path": "<local-path>",
+    "sha256": "e95466d5ea3b9f39e8ab1e3e8a09b5411df6874f42022ee15f306d80880d9e30",
+    "n_days": 7305,
+    "start": "2005-01-01",
+    "end": "2024-12-31",
+    "columns": [
+     "Date",
+     "TEMP",
+     "RAIN",
+     "HUMID",
+     "HPA",
+     "WIND"
+    ],
+    "rain_missing": 0,
+    "temp_missing": 2,
+    "temp_is_daily_minimum": false,
+    "temp_note": "Column is named TEMP. No local file labels it as daily minimum temperature."
+   },
+   {
+    "site_stem": "안동태화_충적",
+    "path": "<local-path>",
+    "sha256": "20dddf7f15db2e390dbf98e27c379dbefc0187d3a049b7a36a244ecaccc5128a",
+    "n_days": 7305,
+    "start": "2005-01-01",
+    "end": "2024-12-31",
+    "columns": [
+     "Date",
+     "TEMP",
+     "RAIN",
+     "HUMID",
+     "HPA",
+     "WIND"
+    ],
+    "rain_missing": 0,
+    "temp_missing": 0,
+    "temp_is_daily_minimum": false,
+    "temp_note": "Column is named TEMP. No local file labels it as daily minimum temperature."
+   }
+  ],
+  "sources_sha256": {
+   "RAW_D05.md": "404aaaba077b00b569eda540c6518f93687d16768f4774b633fec1c85ecb9bd0",
+   "field_pause_sources.json": "651a6f62a32f606c9e90941e3f7122d60e29ba4a6fb56b2105a2ef6695f36b52",
+   "field_pause_access_supplement.md": "c788eb23fb84d7b9b6135e6862cd22f82d875ec3ccc485623af01ac53617651f",
+   "relevant_operation_paragraphs.txt": "aedb2501acf13c7742248f5408d70e062b125a74dac7a17b89de397703e17a57",
+   "miryang2022.pdf": "ac8764cabe8c4dcf64a537a77040d719852fec3c188b99652bc3eb1e1bdd9a57",
+   "watercurtain2022.pdf": "eea4bd54a7765483833e2b0564110e3a0f0f7d41cfb60c7a251c8d72935410c9",
+   "realization_calendar.json": "1012343b4b309b474791c859ba124e8b3fd715cf139e63b897217d6cf2082db3",
+   "p4_calendar.py": "622ac070a506b0315ed24ddd6badfc37a1a8816d4c0c8f896671eccf25893577"
+  },
+  "case_id_sha256": "49c15bfdb894fbef34860ca27e504b56941f19e7f22a701730c15825d025616a",
+  "feature_table_sha256": "90b8f79e9a4c20e0d9268f7b050d1e6db1a5415359e2822430b003a37ee07bd6"
+ },
+ "integration_evidence": {
+  "turn_id": "run",
+  "slot": "executor",
+  "checks": "results/phase4/INTEGRATION_CHECKS.json",
+  "checks_sha256": "55edbe493da23d5f020e866284b0d852ed92fb40614d6f65798518683c46bfc1",
+  "manifest": "results/phase4/INTEGRATION_MANIFEST.json",
+  "calendar_module_sha256": "622ac070a506b0315ed24ddd6badfc37a1a8816d4c0c8f896671eccf25893577",
+  "calendar_module_unchanged": true,
+  "official_inputs": {
+   "n": 2160,
+   "zero_origin": 918,
+   "offseason_variant_cases": 216,
+   "climate_sha256": "see INTEGRATION_CHECKS.json",
+   "declared_origin_rate_matches_calendar": 2160,
+   "features_match_CALENDAR_CASES": true,
+   "warm_prob": 0.2,
+   "offseason_factor": 0.1,
+   "curtain_hours": 14.5,
+   "rain_threshold_mm": 0.0,
+   "calendar_module_sha256_unchanged": true,
+   "note": "pumping calendars and origin-day rain only; no head series, W, reference or forecast"
+  },
+  "updated_at": "2026-10-01T00:14:59.811166+00:00",
+  "meaning": "calendar rules integrated into p4_cases.all_B_cases and export origin contract; protocol not frozen; no scores"
+ }
+}

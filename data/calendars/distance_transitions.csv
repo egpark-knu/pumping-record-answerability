@@ -1,0 +1,14 @@
+stratum,records,both_detected,new_at20,neither_detected,no_question,lost_at20,storage_type,layer_id,calendar_type
+all,2160,669,404,167,918,2,,,
+storage_type,720,357,39,16,306,2,confined,,
+storage_type,720,299,88,27,306,,leaky,,
+storage_type,720,13,277,124,306,,unconfined,,
+layer_id,360,207,,,153,,,confined_T50,
+layer_id,360,150,39,16,153,2,,confined_T500,
+layer_id,360,207,,,153,,,leaky_T50,
+layer_id,360,92,88,27,153,,,leaky_T500,
+layer_id,360,11,196,,153,,,unconfined_T50,
+layer_id,360,2,81,124,153,,,unconfined_T500,
+calendar_type,720,311,248,153,6,2,,,domestic_continuous
+calendar_type,720,125,43,,552,,,,paddy_irrigation
+calendar_type,720,233,113,14,360,,,,water_curtain

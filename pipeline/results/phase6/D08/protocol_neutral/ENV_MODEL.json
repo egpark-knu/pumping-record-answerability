@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "348fc2bca9f9ef131e1d7b1e541ce44c5e1f9f70063cf043a84e43b39ac06bb6",
+  "utc": "2026-10-01T12:56:10.751415+00:00",
+  "kind": "model",
+  "executable": "python",
+  "versions": {
+    "huggingface_hub": "1.32.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.6",
+    "safetensors": "0.8.0",
+    "scipy": "1.17.1",
+    "timesfm": "3.0.2",
+    "torch": "2.14.0"
+  },
+  "interfaces": {
+    "predict_batch": "(self, contexts: 'list[np.ndarray]', horizon: 'int', past_only_covariates: 'list[np.ndarray | None] | None' = None, past_future_covariates: 'list[np.ndarray | None] | None' = None, ts_ids: 'list[str] | None' = None, return_quantiles: 'bool' = True, use_symmetric_averaging: 'bool' = True, make_positive: 'bool' = True, sort_quantiles: 'bool' = True, use_znorm: 'bool' = False, padding_mode: 'str' = 'none', univariate: 'bool' = False) -> 'Iterator[ForecastOutput]'",
+    "checked_prediction": "(q, pred_id, expected_id, horizon)",
+    "model_config": "(checkpoint_path: 'str' = 'google/timesfm-3.0-pytorch', per_core_batch_size: 'int' = 4, input_patch_length: 'int' = 32, output_patch_length: 'int' = 64, quantiles: 'list[float]' = <factory>, median_quantile_index: 'int' = 4, use_stitching: 'bool' = True, use_linear_detrending: 'bool' = True, linear_detrending_threshold: 'float' = 0.5, use_iterative_cpm_revin: 'bool' = True, use_frozen_running_stats: 'bool' = False, use_variate_attention: 'bool' = True, value_clip: 'float' = 1e+20, input_transform: 'str' = 'identity', use_sdpa: 'bool' = True, device: 'str | None' = None, residual_block_config: 'configs.ResidualBlockConfig | None' = None, transformer_config: 'configs.StackedTransformersConfig | None' = None, cache_dir: 'str | None' = None, force_download: 'bool' = False, token: 'str | bool | None' = None, revision: 'str | None' = None, local_files_only: 'bool' = False) -> None",
+    "mps_available": true
+  },
+  "model_instantiated": false,
+  "W_executed": false,
+  "scientific_data_scored": false
+}

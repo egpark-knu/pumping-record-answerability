@@ -1,0 +1,19 @@
+{
+ "status": "neutral_protocol_frozen_before_scoring",
+ "frozen_utc": "2026-10-01T12:55:27.849521+00:00",
+ "scientific_score_computations_before_freeze": 0,
+ "new_model_calls_before_freeze": 0,
+ "prepared_original_records": 6270,
+ "active20_records": 1242,
+ "selected_W_original_records": 50,
+ "protocol_sha256": "348fc2bca9f9ef131e1d7b1e541ce44c5e1f9f70063cf043a84e43b39ac06bb6",
+ "artifact_pins": {
+  "results/phase6/D08/protocol_neutral/d08_runtime.py": "0ce5d22f4ef985dcbff83f21b01924fb7d7d4ebe71b0235bca329476486e320b",
+  "results/phase6/D08/protocol_neutral/prepare_protocol.py": "949b6202655b008918d0571e63d6fc1112934c63f1d0eecfd21415123ff74133",
+  "results/phase6/D08/protocol_neutral/env_probe.py": "c5b735c0bdbe9d7ca94f3dd3dec570b72c73a7e0f0ff038a4612aa722a44a289",
+  "results/phase6/D08/protocol_neutral/SOURCE_INDEX.json": "1a62a5cf65be06f35f94d4e8958d5263f8808709ccb0102136e9f8b2cbe1d4bf",
+  "results/phase6/D08/protocol_neutral/SOURCE_BASELINE.json": "a96935962c965c9d7d6aacc25e15af8a35f70ba1d797aad2be1811c0882eebf0",
+  "results/phase6/D08/protocol_neutral/W50_SELECTION.json": "6242ec1a1fd993a90fe86c958d343bc118ba8442a9fc999fae9defb97db3ee2b"
+ },
+ "public_edition": "Public edition: hash pins refer to the public release files; process fields removed; scientific settings unchanged."
+}

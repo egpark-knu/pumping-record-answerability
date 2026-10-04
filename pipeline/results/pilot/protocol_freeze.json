@@ -1,0 +1,77 @@
+{
+ "protocol": "results/pilot/protocol.md",
+ "frozen_at": "2026-09-30T15:08:38+09:00",
+ "scores_computed_before_freeze": false,
+ "cases_generated_before_freeze": false,
+ "rain_sources": {
+  "안동태화_충적": {
+   "path": "data/climate/안동태화_충적_CL.txt",
+   "sha256": "20dddf7f15db2e390dbf98e27c379dbefc0187d3a049b7a36a244ecaccc5128a"
+  },
+  "산청산청_암반": {
+   "path": "data/climate/산청산청_암반_CL.txt",
+   "sha256": "e95466d5ea3b9f39e8ab1e3e8a09b5411df6874f42022ee15f306d80880d9e30"
+  },
+  "남해남해_암반": {
+   "path": "data/climate/남해남해_암반_CL.txt",
+   "sha256": "7733e1352ddc8b953f952acb14289184640a61d294c1ef188a103e7a6b67c521"
+  }
+ },
+ "env": {
+  "python": "3.11.14",
+  "venv": "2_zero_shot/env/.venv_pilot",
+  "packages": {
+   "pastas": "2.0.0",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "pandas": "3.0.6",
+   "numba": "0.67.0",
+   "matplotlib": "3.11.2",
+   "tqdm": "4.70.1"
+  }
+ },
+ "grid": {
+  "rest_ratio": [
+   0.25,
+   0.5,
+   1,
+   2,
+   4
+  ],
+  "signal_ratio": [
+   0.5,
+   2
+  ],
+  "pi_r": [
+   0.5,
+   5
+  ],
+  "realizations": 10,
+  "cases": 200,
+  "pairs": [
+   "P1_continue_vs_stop",
+   "P2_current_vs_1p5x"
+  ],
+  "horizons": [
+   10,
+   30
+  ],
+  "queries_per_horizon": 800
+ },
+ "accepted_deviations": [
+  "fast exact Hantush integral shared across generator/W/reference (checked vs Pastas quad_step 5.5e-7 gain)",
+  "local refinement: convergence stop, cap 8 rounds, <=4 restarts"
+ ],
+ "protocol_sha256": "61f7fa696cfbca26e8f46ace79ca5432e0c644a667ef9eccc7fc7cc27bd12bad",
+ "hashes": {
+  "lib/p3_kernels.py": "87993d72facbfc8a4722debc7b1d6ceb41fe52e62366de7dd966396f6b97ca38",
+  "lib/p3_generator.py": "b7ab2104b1ba676185f9ef35d3b3a9420a0fa6cd2e63cb649b89fa2d54d6243a",
+  "lib/p3_wenvelope.py": "cde7eaae39b0f07b5f0efdf84eca485f2f8cf9f22e6c1b6a282eff6c29384e4c",
+  "lib/p3_pastas.py": "4f24e3cd53a7f7226803488bbe870396e0675b4f81da719d80ee59d839a00274",
+  "lib/p3_make_cases.py": "8dcc5a8785a846194922d10d818d56ca9eacea2220588b1e5948b2818a2d521c",
+  "lib/tests/p3_fixture.py": "735ba2871fad859f11d3f16d974b65a5343e12f9d6efab1cac7a43a99ad9bb7b",
+  "lib/tests/p3_prep_checks.py": "1148992ee7e1b8019d982fa43b3ef20601149f1ffcb74391911d6795842ffa54",
+  "lib/timesfm_pilot_adapter.py": "e90a9f906e1411e47b77e1da80387016913f0516f921eb265a1ab99584843c6e"
+ },
+ "public_edition": "Public edition: hash pins refer to the public release files; process fields removed; scientific settings unchanged."
+}

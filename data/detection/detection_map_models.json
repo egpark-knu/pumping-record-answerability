@@ -1,0 +1,5459 @@
+{
+  "primary": {
+    "no_layer": {
+      "status": "ok",
+      "coefficients": {
+        "intercept": 7.579507660192935,
+        "log_signal_ratio": 3.9223690742146133,
+        "log_rho_plus_offset": 0.6644870228932253
+      },
+      "n": 1260,
+      "n_events": 861.0,
+      "log_likelihood": -200.23414575547338,
+      "large_coefficient_diagnostic": false,
+      "crossings": {
+        "0.0": {
+          "0.5": {
+            "rho": 0.0,
+            "layer_id": null,
+            "signal_ratio": 0.24053872453322292,
+            "log_signal_ratio": -1.4248741856279723,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.19720282938324776,
+              "high": 0.30088064519904056,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.0,
+            "layer_id": null,
+            "signal_ratio": 0.42117946287286706,
+            "log_signal_ratio": -0.8646962585224831,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.29328193869983926,
+              "high": 0.5623020053810595,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "0.1": {
+          "0.5": {
+            "rho": 0.1,
+            "layer_id": null,
+            "signal_ratio": 0.19968988972371454,
+            "log_signal_ratio": -1.6109896671643846,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.16220246923344442,
+              "high": 0.2474778824817827,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.1,
+            "layer_id": null,
+            "signal_ratio": 0.3496538058817203,
+            "log_signal_ratio": -1.0508117400588957,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.2422818439555505,
+              "high": 0.45972581643312854,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "0.25": {
+          "0.5": {
+            "rho": 0.25,
+            "layer_id": null,
+            "signal_ratio": 0.17756554651952586,
+            "log_signal_ratio": -1.7284154620659864,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.14265060714236621,
+              "high": 0.2197079362813855,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.25,
+            "layer_id": null,
+            "signal_ratio": 0.3109144344759819,
+            "log_signal_ratio": -1.1682375349604972,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.2158542904214036,
+              "high": 0.40398822719543426,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "0.5": {
+          "0.5": {
+            "rho": 0.5,
+            "layer_id": null,
+            "signal_ratio": 0.16023709876415065,
+            "log_signal_ratio": -1.8311006933541918,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.1275722428266854,
+              "high": 0.1998274382375092,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.5,
+            "layer_id": null,
+            "signal_ratio": 0.28057259936318524,
+            "log_signal_ratio": -1.2709227662487026,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.1960254828589603,
+              "high": 0.3599176431259691,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "1.0": {
+          "0.5": {
+            "rho": 1.0,
+            "layer_id": null,
+            "signal_ratio": 0.14361121156393733,
+            "log_signal_ratio": -1.9406455504579232,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.1128170918191962,
+              "high": 0.17962232931888203,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 1.0,
+            "layer_id": null,
+            "signal_ratio": 0.2514609365556295,
+            "log_signal_ratio": -1.3804676233524338,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.17485321487590677,
+              "high": 0.3203668648196336,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "2.0": {
+          "0.5": {
+            "rho": 2.0,
+            "layer_id": null,
+            "signal_ratio": 0.12822240439450858,
+            "log_signal_ratio": -2.053988988496921,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.09882151909377801,
+              "high": 0.16123030171860944,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 2.0,
+            "layer_id": null,
+            "signal_ratio": 0.22451538111356215,
+            "log_signal_ratio": -1.4938110613914317,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.15434645161428012,
+              "high": 0.28451752655905355,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "4.0": {
+          "0.5": {
+            "rho": 4.0,
+            "layer_id": null,
+            "signal_ratio": 0.11425344325374263,
+            "log_signal_ratio": -2.169336111773622,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.08635097195950345,
+              "high": 0.14541323126834169,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 4.0,
+            "layer_id": null,
+            "signal_ratio": 0.2000559533786855,
+            "log_signal_ratio": -1.6091581846681327,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.13597379433861465,
+              "high": 0.2545155584595432,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        }
+      },
+      "bootstrap_fit_status_counts": {
+        "ok": 999
+      }
+    },
+    "layer": {
+      "status": "quasi_separation",
+      "coefficients": null,
+      "n": 1260,
+      "n_events": 861.0,
+      "log_likelihood": null,
+      "large_coefficient_diagnostic": null,
+      "crossings": {
+        "0.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "0.1": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "0.25": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "0.5": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "1.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "2.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "4.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        }
+      },
+      "bootstrap_fit_status_counts": {
+        "quasi_separation": 999
+      }
+    },
+    "layer_comparison": {
+      "status": "unidentifiable",
+      "mcfadden_no_layer": null,
+      "mcfadden_layer": null,
+      "lr_stat": null,
+      "bootstrap": {
+        "lr_stat": {
+          "n_identified": 0,
+          "n_not_identified": 999,
+          "low": null,
+          "high": null,
+          "status": "unidentifiable"
+        },
+        "delta_mcfadden": {
+          "n_identified": 0,
+          "n_not_identified": 999,
+          "low": null,
+          "high": null,
+          "status": "unidentifiable"
+        }
+      },
+      "bootstrap_status_counts": {
+        "unidentifiable": 999
+      }
+    }
+  },
+  "positive_rho_sensitivity": {
+    "no_layer": {
+      "status": "ok",
+      "coefficients": {
+        "intercept": 7.248525883791276,
+        "log_signal_ratio": 3.7612653008762917,
+        "log_rho_plus_offset": 0.7982989218642894
+      },
+      "n": 1080,
+      "n_events": 748.0,
+      "log_likelihood": -177.08526648747056,
+      "large_coefficient_diagnostic": false,
+      "crossings": {
+        "0.0": {
+          "0.5": {
+            "rho": 0.0,
+            "layer_id": null,
+            "signal_ratio": 0.2749048199264086,
+            "log_signal_ratio": -1.291330350583748,
+            "status": "ok",
+            "reporting_status": "extrapolated",
+            "out_of_support": true,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": true,
+            "rho_out_of_observed_range": true,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.21507732401684357,
+              "high": 0.36536816905118785,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 999
+            }
+          },
+          "0.9": {
+            "rho": 0.0,
+            "layer_id": null,
+            "signal_ratio": 0.49304309490934034,
+            "log_signal_ratio": -0.7071586951505843,
+            "status": "ok",
+            "reporting_status": "extrapolated",
+            "out_of_support": true,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": true,
+            "rho_out_of_observed_range": true,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.3225891339566771,
+              "high": 0.7183215699276229,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 999
+            }
+          }
+        },
+        "0.1": {
+          "0.5": {
+            "rho": 0.1,
+            "layer_id": null,
+            "signal_ratio": 0.21772942605928916,
+            "log_signal_ratio": -1.5245021519417339,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.17312026194984528,
+              "high": 0.27961574290867525,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.1,
+            "layer_id": null,
+            "signal_ratio": 0.3904987555541721,
+            "log_signal_ratio": -0.94033049650857,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.2642130305231715,
+              "high": 0.5351428628146464,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "0.25": {
+          "0.5": {
+            "rho": 0.25,
+            "layer_id": null,
+            "signal_ratio": 0.18794288244188595,
+            "log_signal_ratio": -1.6716171791123404,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.1498195415694412,
+              "high": 0.23850378466294536,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.25,
+            "layer_id": null,
+            "signal_ratio": 0.3370764486782578,
+            "log_signal_ratio": -1.0874455236791767,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.23175918048150237,
+              "high": 0.45062575170998204,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "0.5": {
+          "0.5": {
+            "rho": 0.5,
+            "layer_id": null,
+            "signal_ratio": 0.1652551349088777,
+            "log_signal_ratio": -1.80026472715443,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.1307668940741738,
+              "high": 0.2073971837334939,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 0.5,
+            "layer_id": null,
+            "signal_ratio": 0.2963858661588585,
+            "log_signal_ratio": -1.2160930717212663,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.20508316777162414,
+              "high": 0.38830449483940094,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "1.0": {
+          "0.5": {
+            "rho": 1.0,
+            "layer_id": null,
+            "signal_ratio": 0.14406275905535004,
+            "log_signal_ratio": -1.9375062475777751,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.11311840756894491,
+              "high": 0.18027651529657515,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 1.0,
+            "layer_id": null,
+            "signal_ratio": 0.25837723982010474,
+            "log_signal_ratio": -1.3533345921446114,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.1798508026669286,
+              "high": 0.32930054209503057,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "2.0": {
+          "0.5": {
+            "rho": 2.0,
+            "layer_id": null,
+            "signal_ratio": 0.12499184806192291,
+            "log_signal_ratio": -2.079506759311076,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.09594326116065935,
+              "high": 0.15670701172989934,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 2.0,
+            "layer_id": null,
+            "signal_ratio": 0.22417347074302202,
+            "log_signal_ratio": -1.4953351038779126,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.15479787633941822,
+              "high": 0.2816702178379186,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        },
+        "4.0": {
+          "0.5": {
+            "rho": 4.0,
+            "layer_id": null,
+            "signal_ratio": 0.10817364099038017,
+            "log_signal_ratio": -2.224017556015691,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.5,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.0821738389551983,
+              "high": 0.1370410145627154,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          },
+          "0.9": {
+            "rho": 4.0,
+            "layer_id": null,
+            "signal_ratio": 0.19400993680571468,
+            "log_signal_ratio": -1.6398459005825277,
+            "status": "ok",
+            "reporting_status": "finite_inside",
+            "out_of_support": false,
+            "sr_out_of_observed_support": false,
+            "rho_not_observed": false,
+            "rho_out_of_observed_range": false,
+            "rho_interpolated": false,
+            "probability": 0.9,
+            "bootstrap": {
+              "n_identified": 999,
+              "n_not_identified": 0,
+              "low": 0.13306656892796354,
+              "high": 0.2421463853355423,
+              "status": "conditional_on_identified_replicates",
+              "status_counts": {
+                "ok": 999
+              },
+              "n_extrapolated": 0
+            }
+          }
+        }
+      },
+      "bootstrap_fit_status_counts": {
+        "ok": 999
+      }
+    },
+    "layer": {
+      "status": "quasi_separation",
+      "coefficients": null,
+      "n": 1080,
+      "n_events": 748.0,
+      "log_likelihood": null,
+      "large_coefficient_diagnostic": null,
+      "crossings": {
+        "0.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "0.1": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.1,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "0.25": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.25,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "0.5": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 0.5,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "1.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 1.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "2.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 2.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        },
+        "4.0": {
+          "confined_T50": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "confined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "confined_T500": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "confined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T50": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "leaky_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "leaky_T500": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "leaky_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T50": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T50",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          },
+          "unconfined_T500": {
+            "0.5": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.5,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            },
+            "0.9": {
+              "rho": 4.0,
+              "layer_id": "unconfined_T500",
+              "signal_ratio": null,
+              "log_signal_ratio": null,
+              "status": "quasi_separation",
+              "reporting_status": "unidentifiable",
+              "out_of_support": false,
+              "sr_out_of_observed_support": false,
+              "rho_not_observed": false,
+              "rho_out_of_observed_range": false,
+              "rho_interpolated": false,
+              "probability": 0.9,
+              "bootstrap": {
+                "n_identified": 0,
+                "n_not_identified": 999,
+                "low": null,
+                "high": null,
+                "status": "full_sample_unidentifiable",
+                "status_counts": {
+                  "quasi_separation": 999
+                },
+                "n_extrapolated": 0,
+                "published": false
+              }
+            }
+          }
+        }
+      },
+      "bootstrap_fit_status_counts": {
+        "quasi_separation": 999
+      }
+    },
+    "layer_comparison": {
+      "status": "unidentifiable",
+      "mcfadden_no_layer": null,
+      "mcfadden_layer": null,
+      "lr_stat": null,
+      "bootstrap": {
+        "lr_stat": {
+          "n_identified": 0,
+          "n_not_identified": 999,
+          "low": null,
+          "high": null,
+          "status": "unidentifiable"
+        },
+        "delta_mcfadden": {
+          "n_identified": 0,
+          "n_not_identified": 999,
+          "low": null,
+          "high": null,
+          "status": "unidentifiable"
+        }
+      },
+      "bootstrap_status_counts": {
+        "unidentifiable": 999
+      }
+    }
+  },
+  "exchange": {
+    "status": "ok",
+    "point": {
+      "coefficient_exchange": 0.16940961197698545,
+      "SR4_over_SR0": 0.4749898107901628
+    },
+    "bootstrap": {
+      "coefficient_exchange": {
+        "n_identified": 999,
+        "n_not_identified": 0,
+        "low": 0.1373432328666076,
+        "high": 0.21145652168403642,
+        "status": "conditional_on_identified_replicates"
+      },
+      "SR4_over_SR0": {
+        "n_identified": 999,
+        "n_not_identified": 0,
+        "low": 0.3948556865114685,
+        "high": 0.5468679892504174,
+        "status": "conditional_on_identified_replicates"
+      }
+    }
+  },
+  "positive_rho_exchange": {
+    "status": "ok",
+    "point": {
+      "coefficient_exchange": 0.21224212013927957,
+      "SR4_over_SR0": 0.39349488677331307
+    },
+    "bootstrap": {
+      "coefficient_exchange": {
+        "n_identified": 999,
+        "n_not_identified": 0,
+        "low": 0.16334568572772967,
+        "high": 0.2764719635499386,
+        "status": "conditional_on_identified_replicates"
+      },
+      "SR4_over_SR0": {
+        "n_identified": 999,
+        "n_not_identified": 0,
+        "low": 0.2967272280130739,
+        "high": 0.4878173290688142,
+        "status": "conditional_on_identified_replicates"
+      }
+    }
+  },
+  "bootstrap_draw_sha256": "d2c3ea3a3359fadf0a6d9d58420781f560a92c5c42a3c3c10d774c0e210ed5a7",
+  "lead_independent": true,
+  "pair_independent": true,
+  "n": 1260,
+  "map_input_sha256": "398266b2e5f10bd4bdfa69f9731fbb62e32ff89dbf9165a6358db51538559ca5"
+}

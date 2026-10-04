@@ -1,0 +1,25 @@
+{
+ "status": "frozen_before_scoring",
+ "utc": "2026-10-01T23:40:04.651200+00:00",
+ "records": 6420,
+ "active": 4584,
+ "expected_starts": 9168,
+ "scored": false,
+ "protocol_sha256": "bcd2e58efb5c454776be8d5d4adb6cad49e009648d85e0d1677c63bfc8726394",
+ "source_pins": {
+  "results/phase6/D08/protocol_neutral/SOURCE_INDEX.json": "1a62a5cf65be06f35f94d4e8958d5263f8808709ccb0102136e9f8b2cbe1d4bf",
+  "lib/p3_wenvelope.py": "cde7eaae39b0f07b5f0efdf84eca485f2f8cf9f22e6c1b6a282eff6c29384e4c",
+  "lib/p3_wenvelope_repaired_v1_2.py": "58b4343ca66c8dfa20d39c8cd3191446a56d52f9ad1ec409cdfa771024e90c9b",
+  "lib/p3_kernels.py": "87993d72facbfc8a4722debc7b1d6ceb41fe52e62366de7dd966396f6b97ca38",
+  "lib/p5_w_family.py": "36c8b833d2fdcfa8bc9167f7c809424017134cb7aafdf988aa7fac4678b0b68d",
+  "results/phase4/statistics.json": "4a4c36640532064ccc99b2e11a9e96c07db418d34c6d4472300f6806fdbc07bf",
+  "results/phase4/primary_rows.csv": "ef84b37d72962333776932fe00a20de89a9756b82a4123ce8f029872f3344ad8",
+  "results/phase5/A_rows.csv": "ca585962dc431abce47479b67b6f2ad66d4b1df8a414370ece8d796d8e283c18",
+  "results/phase6/protocol.md": "348fc2bca9f9ef131e1d7b1e541ce44c5e1f9f70063cf043a84e43b39ac06bb6",
+  "results/phase7/D09/analysis/B02/B02_source_rows.csv": "32cbfe09b39bd91594568fc624dc41598600cb7db700e49c33f07a5287fbe456",
+  "results/phase4/bootstrap_draw_matrix.npy": "d2c3ea3a3359fadf0a6d9d58420781f560a92c5c42a3c3c10d774c0e210ed5a7",
+  "results/phase8/data/record_manifest.json": "2b2f5e02690f9efadfff37a9479d2393b8fbe8ca735acb33969d2627cac6fbc3",
+  "results/phase8/protocol.md": "bcd2e58efb5c454776be8d5d4adb6cad49e009648d85e0d1677c63bfc8726394"
+ },
+ "public_edition": "Public edition: hash pins refer to the public release files; process fields removed; scientific settings unchanged."
+}

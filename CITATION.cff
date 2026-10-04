@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the archive and the associated paper."
+title: "Data and code for: When can a pumping record answer 'what if we stop?'"
+version: v1.0.0
+doi: 10.5281/zenodo.23131441
+date-released: 2026-10-04
+type: dataset
+authors:
+  - family-names: Park
+    given-names: Eungyu
+    orcid: "https://orcid.org/0000-0002-2293-4686"
+    email: egpark@knu.ac.kr
+    affiliation: "School of Earth System Sciences, Kyungpook National University, Daegu 41566, Republic of Korea; GeoAI Alignment, Inc., Daegu 41544, Republic of Korea"
+  - family-names: Park
+    given-names: Jangwon
+    affiliation: "School of Earth System Sciences, Kyungpook National University, Daegu 41566, Republic of Korea; GeoAI Alignment, Inc., Daegu 41544, Republic of Korea"
+  - family-names: Kim
+    given-names: Taeyu
+    affiliation: "School of Earth System Sciences, Kyungpook National University, Daegu 41566, Republic of Korea; GeoAI Alignment, Inc., Daegu 41544, Republic of Korea"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/egpark-knu/pumping-record-answerability"
+keywords:
+  - pumping record
+  - aquifer test
+  - persistent excitation
+  - data worth
+  - what-if scenario
+  - observation distance
+  - time-series foundation model
+abstract: >-
+  Code and data for a twin-experiment study of when an operating pumping record can answer a
+  what-if question about stopping or increasing pumping. Includes the record generator, response-family
+  envelope, zero-effect fits, linearization, history-intervention and aggregation code, protocols fixed
+  before outcomes were computed, aggregate and case-level tables, and scripts that rebuild Table 3,
+  the figures and the principal numbers.

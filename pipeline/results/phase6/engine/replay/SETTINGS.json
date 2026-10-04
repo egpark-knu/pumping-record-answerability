@@ -1,0 +1,46 @@
+{
+ "runtime": {
+  "python": "3.11.14",
+  "torch": "2.14.0",
+  "numpy": "2.4.6",
+  "device": "mps",
+  "threads": 1
+ },
+ "machine": {
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "processor": "arm",
+  "machine": "arm64"
+ },
+ "checkpoint": {
+  "location": "environment variable TIMESFM_SNAPSHOT",
+  "revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+  "weights_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "config_sha256": "ff17bbc07b792c5a904cca265b8468579d736a4fe84981da25eb871b0a125bc6"
+ },
+ "API": {
+  "return_quantiles": true,
+  "use_symmetric_averaging": false,
+  "make_positive": false,
+  "sort_quantiles": true,
+  "use_znorm": false,
+  "padding_mode": "none",
+  "univariate": false
+ },
+ "batch": 8,
+ "model_sources": {
+  "timesfm3/torch/model.py": "474b8035db514d852e6358c73ebd1ba90dcd25f17d1ecf4e5bb884ca788e7dbf",
+  "timesfm3/torch/timesfm3_forecaster.py": "33870c9676be6aab4e62c45a0a89bc1d6c49ca3149ddc46a19c6d9e2c23e0037",
+  "timesfm3/torch/evaluator.py": "4ad0ddc5e264206cf6db706b493c2b4f20bf6698e89b990a4c37c15089971af2"
+ },
+ "env": {
+  "HF_HUB_OFFLINE": "1",
+  "TRANSFORMERS_OFFLINE": "1",
+  "PYTHONDONTWRITEBYTECODE": "1",
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "MKL_NUM_THREADS": "1",
+  "VECLIB_MAXIMUM_THREADS": "1"
+ },
+ "no_cache_forecast_load_for_new_inference": true,
+ "public_edition": "Public edition: hash pins refer to the public release files; process fields removed; scientific settings unchanged."
+}

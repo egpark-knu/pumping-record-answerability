@@ -1,0 +1,214 @@
+{
+ "status": "prescore_execution_contract",
+ "created_at": "2026-10-01T09:31:22.894277+09:00",
+ "role_policy": {
+  "design_freeze": "high",
+  "execution_aggregation_figures": "medium",
+  "execution_slots": {
+   "executor": "shard_b"
+  }
+ },
+ "new_cases": {
+  "A": 720,
+  "B": 2160,
+  "total": 2880,
+  "B_zero_origin": 918,
+  "B_variant_inside_water_curtain": 216
+ },
+ "cohorts": {
+  "map_cases": 1260,
+  "calendar_cases": 2160,
+  "C_cases": 4110,
+  "C_primary_rows": 16440
+ },
+ "shards": {
+  "shard_a": {
+   "path": "results/phase4/SHARD_SHARD_A.json",
+   "count": 1440,
+   "A": 360,
+   "B": 1080,
+   "B_zero_origin": 459,
+   "case_ids_sha256": "250a335241d3893c401ef9ffe2347ee06f399ae0e089008d5fa7b3cbea80c542"
+  },
+  "shard_b": {
+   "path": "results/phase4/SHARD_SHARD_B.json",
+   "count": 1440,
+   "A": 360,
+   "B": 1080,
+   "B_zero_origin": 459,
+   "case_ids_sha256": "7c7e3923d3f2bef1ba14df6b9f7c08c0a54f79e22f13cbc92a952b6a2e8401f5"
+  }
+ },
+ "commands": {
+  "case_generation_once": "cd <local-path>\nPYTHONDONTWRITEBYTECODE=1 env/.venv_pilot/bin/python lib/p4_make_cases.py",
+  "shard_a_W_reference": "cd <local-path>\nmkdir -p results/phase4/wb/logs\nfor k in 0 1 2 3 4 5 6 7; do\n  OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 \\\n  nohup env/.venv_pilot/bin/python lib/p4_run_wb.py --actor shard_a --shard \"$k\" --nshards 8 \\\n    > \"results/phase4/wb/logs/shard_a_proc${k}.stdout.log\" 2>&1 &\ndone\nwait",
+  "shard_b_W_reference": "cd <local-path>\nmkdir -p results/phase4/wb/logs\nfor k in 0 1 2 3 4 5 6 7; do\n  OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 \\\n  nohup env/.venv_pilot/bin/python lib/p4_run_wb.py --actor shard_b --shard \"$k\" --nshards 8 \\\n    > \"results/phase4/wb/logs/shard_b_proc${k}.stdout.log\" 2>&1 &\ndone\nwait",
+  "shard_b_raw_model_first": "cd <local-path>\nD05_ROOT=\"$PWD\"\nmkdir -p results/phase4/runtime_tmp\nHF_HUB_OFFLINE=1 HF_HOME=\"$D05_ROOT/env/cache/hf\" HF_HUB_CACHE=\"$D05_ROOT/env/cache/hf/hub\" TMPDIR=\"$D05_ROOT/results/phase4/runtime_tmp\" \\\nOMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 \\\n<local-path> lib/p4_timesfm_execution.py --actor shard_b",
+  "shard_a_raw_model_second": "cd <local-path>\nD05_ROOT=\"$PWD\"\nmkdir -p results/phase4/runtime_tmp\nHF_HUB_OFFLINE=1 HF_HOME=\"$D05_ROOT/env/cache/hf\" HF_HUB_CACHE=\"$D05_ROOT/env/cache/hf/hub\" TMPDIR=\"$D05_ROOT/results/phase4/runtime_tmp\" \\\nOMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 \\\n<local-path> lib/p4_timesfm_execution.py --actor shard_a",
+  "post_both_actors_join_statistics": "cd <local-path>\nOMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 env/.venv_pilot/bin/python - <<'POSTFREEZE'\nimport json,sys\nfrom pathlib import Path\nr=Path.cwd();sys.path.insert(0,str(r/'lib'))\nfrom p4_contracts import require_frozen\nimport p4_collect as collect,p4_statistics as statistics\nrequire_frozen()\nrows=collect.assemble(strict=True)\nrecords=json.loads((r/'results/phase4/COHORT_MANIFESTS.json').read_text())['records']\nresult=statistics.run_statistics(rows,cohort_manifest=records,reference_rows=None,official=True)\ncollect.write(rows,r/'results/phase4/primary_rows.csv')\n(r/'results/phase4/statistics.json').write_text(json.dumps(result,indent=2,allow_nan=False)+'\\n')\nPOSTFREEZE"
+ },
+ "CLI_independently_parsed": {
+  "p4_run_wb.py": [
+   "ap.add_argument('--actor', choices=('shard_a', 'shard_b'))",
+   "ap.add_argument('--shard', type=int, default=0)",
+   "ap.add_argument('--nshards', type=int, default=1)",
+   "ap.add_argument('--only', nargs='*')"
+  ],
+  "p4_timesfm_execution.py": [
+   "ap.add_argument('--actor', required=True, choices=('shard_a', 'shard_b'))"
+  ]
+ },
+ "collector_write_signature": "(rows, path)",
+ "environments": {
+  "generation_W_reference_statistics": {
+   "executable": "env/.venv_pilot/bin/python",
+   "python": "3.11.14",
+   "numpy": "2.4.6",
+   "scipy": "1.17.1",
+   "pandas": "3.0.6",
+   "pastas": "2.0.0",
+   "import_smoke_exit_code": 0
+  },
+  "raw_model": {
+   "executable": "<local-path>",
+   "python": "3.11.14",
+   "torch": "2.14.0",
+   "numpy": "2.4.6",
+   "mps_available": true,
+   "import_smoke_exit_code": 0,
+   "model_constructed": false,
+   "offline": true
+  }
+ },
+ "resources": {
+  "observed_at": "2026-10-01T09:31:22.894277+09:00",
+  "logical_cpus": 24,
+  "physical_memory_bytes": 206158430208,
+  "free_pages_16384_bytes": 2310459,
+  "free_GiB_at_preflight": 35.25480651855469,
+  "disk_available_at_preflight": "3.3 TiB",
+  "load_average_at_preflight": [
+   2.95,
+   3.65,
+   4.72
+  ],
+  "selected_processes_per_actor": 8,
+  "selected_total_CPU_processes": 16,
+  "blas_threads": 1,
+  "model_instances_at_once": 1,
+  "model_actor_order": [
+   "shard_b",
+   "shard_a"
+  ],
+  "historical_proposal_10_per_actor": "select supported8/actor from actual integration runbook to leave8logical CPUs for system/model",
+  "repeat_before_launch": [
+   "sysctl -n hw.logicalcpu hw.memsize",
+   "uptime",
+   "vm_stat",
+   "df -h <local-path>"
+  ],
+  "estimates_not_measurements": {
+   "generation_minutes": [
+    3,
+    6
+   ],
+   "generation_GB": 0.2,
+   "CPU_hours_per_actor": 13.3,
+   "W_reference_wall_hours_per_actor": [
+    1.7,
+    2.0
+   ],
+   "W_reference_combined_GB": 1.8,
+   "model_minutes_per_actor": [
+    3,
+    5
+   ]
+  }
+ },
+ "model": {
+  "snapshot": "<local-path>",
+  "revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+  "weights_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da",
+  "config_sha256": "ff17bbc07b792c5a904cca265b8468579d736a4fe84981da25eb871b0a125bc6",
+  "API": {
+   "return_quantiles": true,
+   "use_symmetric_averaging": false,
+   "make_positive": false,
+   "sort_quantiles": true,
+   "use_znorm": false,
+   "padding_mode": "none",
+   "univariate": false
+  },
+  "raw_only": true,
+  "batch": 8,
+  "chunk_queries": 128,
+  "covariates": [
+   "pumping",
+   "rainfall"
+  ],
+  "truth_features": false
+ },
+ "row_schema": {
+  "identity": [
+   "source_phase",
+   "case_id",
+   "pair_id",
+   "lead_day",
+   "track",
+   "quantity"
+  ],
+  "source_phases": [
+   "phase2",
+   "phase3",
+   "phase4"
+  ],
+  "metadata": [
+   "realization",
+   "layer_id",
+   "storage_type",
+   "SR",
+   "SR_definition",
+   "rho",
+   "Q_scale",
+   "N_transitions",
+   "experiment_group"
+  ],
+  "outcomes": [
+   "env_inf_m",
+   "env_sup_m",
+   "W_m",
+   "W_status",
+   "E_true_m",
+   "E_tool_m"
+  ],
+  "reference_required": [
+   "E_reference_m",
+   "reference_status",
+   "reference_source_path",
+   "reference_sha256"
+  ],
+  "calendar_required": [
+   "calendar_type",
+   "origin_month",
+   "q_origin_m3d",
+   "offseason_use_variant"
+  ],
+  "undefined_numeric": "None, never epsilon/zero substitution",
+  "execution_guard": "official=True calls require_frozen; explicit complete cohort manifest and actual reference receipts required",
+  "primary_horizons": {
+   "10": 10,
+   "30": 30
+  },
+  "reference_file_contract": "source_phase/case_id/reference_path -> JSON pairs[pair].E_point[lead-1], complete 30-day vector; raw-byte hash receipt"
+ },
+ "statistics_signature": "(rows, n_bootstrap=None, seed=None, draws=None, *, cohort_manifest=None, reference_rows=None, official=True)",
+ "reference_rows_argument": null,
+ "reference_rows_reason": "p4_collect already joins actual reference JSON E_point with path/raw-byte SHA/status receipts",
+ "resumability": {
+  "W_reference": "tf_input/protocol/driver SHA plus every output SHA, reference_status ok and truth_eval_ok; same command recomputes incomplete cases",
+  "model": "exclusive lifetime flock; actor chunks validated by run fingerprint/query IDs; same actor command resumes",
+  "generation": "once after freeze and before actors; never rerun during active execution"
+ },
+ "official_scores_computed": false,
+ "parent_raw_complete": false
+}

@@ -1,0 +1,130 @@
+{
+ "calendars/calendar_detection.csv": {
+  "archived_origin": "results/phase8/data/A_calendar_detection.csv",
+  "sha256": "53854b9bd7ad2ff78408b326f647c280c2306049a301d56d5bbe000975ab7427",
+  "bytes": 98802
+ },
+ "calendars/distance_transitions.csv": {
+  "archived_origin": "results/phase8/data/A_calendar_transition_summary.csv",
+  "sha256": "fbc26b06767dfae27cee438023749c650fb9ca2613e77b30ab8d9226b3e32227",
+  "bytes": 692
+ },
+ "cases/case_level_summary.csv": {
+  "archived_origin": "results/phase8/data/A_joined_rows.csv",
+  "sha256": "2a6fa3be6ba3dde6d4d42f7d96b77e70af09c98cc33ce37c63ae765b6e264be3",
+  "bytes": 22528580
+ },
+ "climate/남해남해_암반_CL.txt": {
+  "archived_origin": "project climate table (KMA ASOS daily, station 295)",
+  "sha256": "7733e1352ddc8b953f952acb14289184640a61d294c1ef188a103e7a6b67c521",
+  "bytes": 246524,
+  "license": "KOGL Type 1 (KMA); not CC BY 4.0"
+ },
+ "climate/산청산청_암반_CL.txt": {
+  "archived_origin": "project climate table (KMA ASOS daily, station 289)",
+  "sha256": "e95466d5ea3b9f39e8ab1e3e8a09b5411df6874f42022ee15f306d80880d9e30",
+  "bytes": 243264,
+  "license": "KOGL Type 1 (KMA); not CC BY 4.0"
+ },
+ "climate/안동태화_충적_CL.txt": {
+  "archived_origin": "project climate table (KMA ASOS daily, station 136)",
+  "sha256": "20dddf7f15db2e390dbf98e27c379dbefc0187d3a049b7a36a244ecaccc5128a",
+  "bytes": 243385,
+  "license": "KOGL Type 1 (KMA); not CC BY 4.0"
+ },
+ "detection/detection_map_models.json": {
+  "archived_origin": "results/phase8/data/A_detection_map.json",
+  "sha256": "6fc248a02003794bc5fab3c7becbad464e218d2e435862bc93870ec75589c692",
+  "bytes": 190398
+ },
+ "detection/magnitude_models.json": {
+  "archived_origin": "results/phase8/data/magnitude_models_UNCHANGED.json",
+  "sha256": "ebe5c344b0c702637b3bfbf497176e80893ab4231761a7371044a2a1951c4907",
+  "bytes": 205935
+ },
+ "detection/sampled_interval_concordance.csv": {
+  "archived_origin": "results/phase8/data/A_concordance.csv",
+  "sha256": "a14eaeaed5fceb4d1be5f368d20fdac2df287a442932c529b92ce4cdc8c10832",
+  "bytes": 3489
+ },
+ "detection/table3_crossings.csv": {
+  "archived_origin": "results/phase8/data/Table3_D10.csv",
+  "sha256": "464d2cbeae4ef9fd76c3eeb1e56c343200918c69f7f1b4ae2d1e59e05bf9944e",
+  "bytes": 1685
+ },
+ "detection/table3_magnitude_intervals.json": {
+  "archived_origin": "results/phase10/calculations/TABLE3_INTERVALS.json",
+  "sha256": "9b17b34d5db8457fd912889cbad7f3cd20572b93debe1e23126bd1656f2accc2",
+  "bytes": 1059559
+ },
+ "engine/engine_on_detected.csv": {
+  "archived_origin": "results/phase8/data/A_engine_on_detected.csv",
+  "sha256": "17ea75734601482e33f8eb987b2934d5bfb9794803b8957756eeb66d60d3672c",
+  "bytes": 9361
+ },
+ "engine/rate_coverage_groups.json": {
+  "archived_origin": "results/phase6/D08/protocol_neutral/execution/A/summary.json:groups",
+  "sha256": "c8ce3489292d4aab0298cf61067607cd27bf0742c926b5fe5ce98977f01b5436",
+  "bytes": 314316
+ },
+ "engine/signal_ratio_bins.json": {
+  "archived_origin": "results/phase4/statistics.json:cohort_C.bins.edges",
+  "sha256": "5c41b39505d3bd351f6f903f5f8202259d50cfc2f07cebb474b245fcf5efeb6f",
+  "bytes": 229
+ },
+ "figure1/figure1_candidate_curves.npz": {
+  "archived_origin": "results/phase10/figure/FIGURE1_FIXED_REPLAY.npz",
+  "sha256": "bf4c4d4b10b9ef3282f2ab4d10020908269fff982ebb4352622ade8498861e09",
+  "bytes": 402478
+ },
+ "intervention/baseline_ratios.json": {
+  "archived_origin": "results/phase6/D08/analysis/AGGREGATE_SOURCE_AUDIT.json:B_baselines",
+  "sha256": "cad3367bae991b6c1bb78a3e953f80bc1f02c811c7a18eebf77531915fea8c51",
+  "bytes": 2879
+ },
+ "intervention/intervention_summaries.json": {
+  "archived_origin": "results/phase6/D08/protocol_neutral/execution/B/AUTHOR_CRITERION.json",
+  "sha256": "68d9117961312e1fc7278ca552adf0a7f10f29ef489f3eae1ae470196018c5b3",
+  "bytes": 14085
+ },
+ "intervention/operation_paired_contrasts.csv": {
+  "archived_origin": "results/phase7/D09/analysis/B01/B01_operation_uncertainty.csv",
+  "sha256": "46f1fb156199325a316363866c6d9558acdb4db070981fb52e7fe962ff3adf5a",
+  "bytes": 5585
+ },
+ "intervention/variant_effect_ratios.json": {
+  "archived_origin": "results/phase6/D08/figures/B_FIGURE_MANIFEST.json:B_variant_effect_ratios.exact_plotted_data",
+  "sha256": "61ba72a60e0075ccaf365f97b8cfd23445c1a0cf4082ccf27a296183f9b94df7",
+  "bytes": 5136
+ },
+ "linearized/linearized_vs_sampled_lead10.csv": {
+  "archived_origin": "results/phase5/C/C_primary_rows.csv (stop question, lead 10; columns subset)",
+  "sha256": "01d22936687b1fdf3e061e813d86ff3bc35f93f44cbdfd7dfd8a2f933c20c607",
+  "bytes": 2720203
+ },
+ "masks/mask_curves.csv": {
+  "archived_origin": "results/phase5/aggregation/C_mask_curves.csv",
+  "sha256": "75c8a0a88e8cb8cb0b6edc1c5f16dd767a8ed20f11f24a7f8e99e70ccffc11f2",
+  "bytes": 1554309
+ },
+ "masks/representative_pumping.csv": {
+  "archived_origin": "pumping_context of results/phase2/cases/tf_inputs/r00_confined_T50_rho1_N6.npz and results/phase4/cases/tf_inputs/d05B_{paddy_irrigation_m07,water_curtain_m01}_r00_confined_T50.npz",
+  "sha256": "6c38592d0ce62eec04ff6506ef482f3cc029bf0db72f89988fe3abbd63c7501b",
+  "bytes": 140646
+ },
+ "scale/w_scale_table.csv": {
+  "archived_origin": "results/phase5/aggregation/D05_W_scale_table.csv",
+  "sha256": "781174e9014278c4e80811679bba525acf2dc4405c800eaf922fe28e293cb54a",
+  "bytes": 8655
+ },
+ "statistics/bootstrap_draw_matrix.npy": {
+  "archived_origin": "results/phase4/bootstrap_draw_matrix.npy",
+  "sha256": "d2c3ea3a3359fadf0a6d9d58420781f560a92c5c42a3c3c10d774c0e210ed5a7",
+  "bytes": 80048
+ },
+ "storage/matched_storage_comparison.json": {
+  "archived_origin": "results/phase10/calculations/MATCHED_STORAGE_COMPARISON.json",
+  "sha256": "093719f9afcbe8051d28f203db0f863addefce97e4df6aea4a6bbd33ce76caeb",
+  "bytes": 2664946
+ }
+}

@@ -1,0 +1,10 @@
+# Forecasting-engine environment recorded for the original runs (Python 3.11.14; Apple MPS device).
+# TimesFM itself is installed from source: google-research/timesfm at commit e31dadd84cb26bd5153fde6687502b8312e918fb
+# (package version 3.0.2), with `python -m pip install --no-deps -e ./timesfm`. The weights are NOT included (README section 6).
+torch==2.14.0
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+huggingface_hub==1.32.0
+safetensors==0.8.0
+tqdm==4.70.1

@@ -1,0 +1,526 @@
+{
+ "summaries": [
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 10,
+   "variant": "range",
+   "n": 1242,
+   "ratio": {
+    "point": 0.9199140466166349,
+    "lower": 0.8927931071960858,
+    "upper": 0.9451682356676314,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 2,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.0018399264029438822,
+    "lower": 0.0,
+    "upper": 0.005484711584940564,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1085,
+    "undetermined": 155,
+    "opposite": 2
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 10,
+   "variant": "control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.8830349165784718,
+    "lower": 0.8399346324408862,
+    "upper": 0.9220638247606783,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 2,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.0018399264029438822,
+    "lower": 0.0,
+    "upper": 0.005484711584940564,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1085,
+    "undetermined": 155,
+    "opposite": 2
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 10,
+   "variant": "stop_control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.8936547577039547,
+    "lower": 0.8640025351948037,
+    "upper": 0.9337368425067283,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 15,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.013799448022079117,
+    "lower": 0.0,
+    "upper": 0.031911034085307925,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1072,
+    "undetermined": 155,
+    "opposite": 15
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 30,
+   "variant": "range",
+   "n": 1242,
+   "ratio": {
+    "point": 0.9632704524079105,
+    "lower": 0.8985056756387848,
+    "upper": 1.0269067465111688,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 50,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.045998160073597055,
+    "lower": 0.009145413842576559,
+    "upper": 0.0889453046413788,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1037,
+    "undetermined": 155,
+    "opposite": 50
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 30,
+   "variant": "control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.9231683971363114,
+    "lower": 0.8397996864840349,
+    "upper": 0.9883594277263954,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 54,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.04967801287948482,
+    "lower": 0.009145413842576559,
+    "upper": 0.09774095846264022,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1033,
+    "undetermined": 155,
+    "opposite": 54
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 30,
+   "variant": "stop_control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.9450612467750907,
+    "lower": 0.8956710347333133,
+    "upper": 1.0146278059472558,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 41,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.03771849126034959,
+    "lower": 0.0030175038205183,
+    "upper": 0.0794476097585104,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1046,
+    "undetermined": 155,
+    "opposite": 41
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 10,
+   "variant": "range",
+   "n": 1242,
+   "ratio": {
+    "point": 0.8893471558842304,
+    "lower": 0.8201311600140648,
+    "upper": 0.9448605268798596,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 17,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.015639374425023,
+    "lower": 0.007707129094412331,
+    "upper": 0.023775498102466788,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1070,
+    "undetermined": 155,
+    "opposite": 17
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 10,
+   "variant": "control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.13422850718599805,
+    "lower": 0.08745451021558906,
+    "upper": 0.19366500328823233,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 185,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.1701931922723091,
+    "lower": 0.11613426349496798,
+    "upper": 0.22051809772483688,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 902,
+    "undetermined": 155,
+    "opposite": 185
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 10,
+   "variant": "stop_control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.11491750209281294,
+    "lower": 0.08241964238167342,
+    "upper": 0.16251958379309184,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 221,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.20331186752529898,
+    "lower": 0.14835359690414993,
+    "upper": 0.2551486421159231,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 866,
+    "undetermined": 155,
+    "opposite": 221
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 30,
+   "variant": "range",
+   "n": 1242,
+   "ratio": {
+    "point": 0.9457889600736158,
+    "lower": 0.8605932772728021,
+    "upper": 1.0144462411608042,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 73,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.0671573137074517,
+    "lower": 0.018517197113894913,
+    "upper": 0.11862390491434482,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 1014,
+    "undetermined": 155,
+    "opposite": 73
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 30,
+   "variant": "control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.19365087124138347,
+    "lower": 0.1301878730387824,
+    "upper": 0.26046731698915104,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 180,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.1655933762649494,
+    "lower": 0.10024718371126552,
+    "upper": 0.2287650194270254,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 907,
+    "undetermined": 155,
+    "opposite": 180
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 30,
+   "variant": "stop_control",
+   "n": 1242,
+   "ratio": {
+    "point": 0.18002612813842772,
+    "lower": 0.12354877903008989,
+    "upper": 0.2451671095327943,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 200,
+   "reversal_denominator": 1087,
+   "reversal_rate": {
+    "point": 0.18399264029438822,
+    "lower": 0.11530803254962194,
+    "upper": 0.25598852590131654,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_status_counts": {
+    "correct": 887,
+    "undetermined": 155,
+    "opposite": 200
+   },
+   "denominator_approximation": "frozen original D06 sign determination"
+  }
+ ],
+ "decisions": [
+  {
+   "a_interval_lower": 0.018930587553585995,
+   "a_interval_upper": 0.049028279757630806,
+   "treatment_median_change": 0.03429235028022007,
+   "control_median_change": 0.0,
+   "doubled_control_median_change": 0.0,
+   "condition_a": true,
+   "condition_b": true,
+   "mechanical_decision": "\uc9c0\uc9c0",
+   "treatment_bootstrap": {
+    "point": 0.03429235028022007,
+    "lower": 0.018930587553585995,
+    "upper": 0.049028279757630806,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "control_bootstrap": {
+    "point": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "pair": "P1_continue_vs_stop",
+   "lead": 10,
+   "n_original_records": 1242,
+   "primary": false,
+   "report_only": true,
+   "stop_control_change": {
+    "point": 0.00014643027920352436,
+    "lower": 0.0,
+    "upper": 0.005250567155055841,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "negative_control_rule_applied_without_reinterpretation": true
+  },
+  {
+   "a_interval_lower": 0.018268963450046163,
+   "a_interval_upper": 0.05271841565804255,
+   "treatment_median_change": 0.032716335935707885,
+   "control_median_change": 0.0,
+   "doubled_control_median_change": 0.0,
+   "condition_a": true,
+   "condition_b": true,
+   "mechanical_decision": "\uc9c0\uc9c0",
+   "treatment_bootstrap": {
+    "point": 0.032716335935707885,
+    "lower": 0.018268963450046163,
+    "upper": 0.05271841565804255,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "control_bootstrap": {
+    "point": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "pair": "P1_continue_vs_stop",
+   "lead": 30,
+   "n_original_records": 1242,
+   "primary": false,
+   "report_only": true,
+   "stop_control_change": {
+    "point": 0.0003248395120172276,
+    "lower": 0.0,
+    "upper": 0.008715491616259674,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "negative_control_rule_applied_without_reinterpretation": true
+  },
+  {
+   "a_interval_lower": 0.5632525201528775,
+   "a_interval_upper": 0.7251027302404667,
+   "treatment_median_change": 0.6334140510577598,
+   "control_median_change": 0.0,
+   "doubled_control_median_change": 0.0,
+   "condition_a": true,
+   "condition_b": true,
+   "mechanical_decision": "\uc9c0\uc9c0",
+   "treatment_bootstrap": {
+    "point": 0.6334140510577598,
+    "lower": 0.5632525201528775,
+    "upper": 0.7251027302404667,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "control_bootstrap": {
+    "point": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "pair": "P2_current_vs_1p5x",
+   "lead": 10,
+   "n_original_records": 1242,
+   "primary": true,
+   "report_only": false,
+   "stop_control_change": {
+    "point": 0.0,
+    "lower": -0.00046268514392421717,
+    "upper": 0.0,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "negative_control_rule_applied_without_reinterpretation": true
+  },
+  {
+   "a_interval_lower": 0.574353232559821,
+   "a_interval_upper": 0.7615072772835975,
+   "treatment_median_change": 0.652178169352992,
+   "control_median_change": 0.0,
+   "doubled_control_median_change": 0.0,
+   "condition_a": true,
+   "condition_b": true,
+   "mechanical_decision": "\uc9c0\uc9c0",
+   "treatment_bootstrap": {
+    "point": 0.652178169352992,
+    "lower": 0.574353232559821,
+    "upper": 0.7615072772835975,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "control_bootstrap": {
+    "point": 0.0,
+    "lower": 0.0,
+    "upper": 0.0,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "pair": "P2_current_vs_1p5x",
+   "lead": 30,
+   "n_original_records": 1242,
+   "primary": false,
+   "report_only": true,
+   "stop_control_change": {
+    "point": 0.0047653049781959216,
+    "lower": 0.0,
+    "upper": 0.012428751335186483,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "negative_control_rule_applied_without_reinterpretation": true
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "baselines": [
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 10,
+   "variant": "original",
+   "n": 1242,
+   "ratio": {
+    "point": 0.11661976862639811,
+    "lower": 0.08147204196531897,
+    "upper": 0.16218030877349765,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_rate": {
+    "point": 0.19595216191352346,
+    "lower": 0.14034914361001316,
+    "upper": 0.24531706174043558,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 213,
+   "reversal_denominator": 1087,
+   "reversal_status_counts": {
+    "correct": 874,
+    "undetermined": 155,
+    "opposite": 213
+   }
+  },
+  {
+   "pair": "P2_current_vs_1p5x",
+   "lead": 30,
+   "variant": "original",
+   "n": 1242,
+   "ratio": {
+    "point": 0.17986718136603752,
+    "lower": 0.12628768650263456,
+    "upper": 0.23407980638884351,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_rate": {
+    "point": 0.17939282428702852,
+    "lower": 0.11394827197081533,
+    "upper": 0.24035866338605813,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 195,
+   "reversal_denominator": 1087,
+   "reversal_status_counts": {
+    "correct": 892,
+    "undetermined": 155,
+    "opposite": 195
+   }
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 10,
+   "variant": "original",
+   "n": 1242,
+   "ratio": {
+    "point": 0.8746705417832052,
+    "lower": 0.8313505489902113,
+    "upper": 0.917816879002978,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_rate": {
+    "point": 0.0009199632014719411,
+    "lower": 0.0,
+    "upper": 0.0027223230490018148,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 1,
+   "reversal_denominator": 1087,
+   "reversal_status_counts": {
+    "correct": 1086,
+    "undetermined": 155,
+    "opposite": 1
+   }
+  },
+  {
+   "pair": "P1_continue_vs_stop",
+   "lead": 30,
+   "variant": "original",
+   "n": 1242,
+   "ratio": {
+    "point": 0.9227813782143842,
+    "lower": 0.8242879039786905,
+    "upper": 0.9903910106010585,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_rate": {
+    "point": 0.045998160073597055,
+    "lower": 0.004566001733160017,
+    "upper": 0.09584029562982005,
+    "n_identified": 999,
+    "n_unidentified": 0,
+    "status": "conditional_on_identified_replicates"
+   },
+   "reversal_numerator": 50,
+   "reversal_denominator": 1087,
+   "reversal_status_counts": {
+    "correct": 1037,
+    "undetermined": 155,
+    "opposite": 50
+   }
+  }
+ ]
+}
